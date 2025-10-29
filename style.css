@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #004aad;
+  color: white;
+  padding: 1em 0;
+}
+
+.ugly-img {
+  width: 60%;
+  margin-top: 20px;
+  border: 3px solid #ccc;
+}
+
+ul {
+  list-style-type: disc;
+  text-align: left;
+  display: inline-block;
+}
