@@ -48,5 +48,5 @@ canvas#matrix {
   left: 0;
   width: 100vw;     /* full viewport width */
   height: 100vh;    /* full viewport height */
-  z-index: -1;      /* behind all content */
+  z-index: 1;      /* behind all content */
 }
