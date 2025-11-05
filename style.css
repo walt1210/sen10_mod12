@@ -42,13 +42,11 @@ ul {
 }
 
 
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: black;
-      overflow: hidden;
-      height: 100%;
-    }
-    canvas {
-      display: block;
-    }
+canvas#matrix {
+  position: fixed;  /* fixed so it stays as you scroll */
+  top: 0;
+  left: 0;
+  width: 100vw;     /* full viewport width */
+  height: 100vh;    /* full viewport height */
+  z-index: -1;      /* behind all content */
+}
